@@ -16,17 +16,17 @@ conda activate tfenv
 ```
 
 # Usage
-To test on test-data, launch Protein_condensate_model_training.ipynb and launch all cells above the **Run several model iterations saving the best one, to help finding sparcely populated states** section. To train current model, launch that section. To load weights, run **Recover the saved model and its training history** section. To get model output, run
+To test on test-data, launch Protein_condensate_model_training.ipynb and launch all cells above the **"Run several model iterations saving the best one, to help finding sparcely populated states"** section. To train current model, launch that section. To load weights, run **"Recover the saved model and its training history"** section. To get model output, run
 ```
 temp = model.predict([traj_ord, traj_ord_lag], batch_size=np.shape(X1_vali)[0])
 ```
 
 # Dataset
-The data was simulated with HOOMD-blue package. The pipeline was the following:
+The data was simulated with HOOMD-blue package. The pipeline was the following:  
 Simulate the formation of ctd condensate ->  
 Add peptide chain (E10/P10 in test data) ->  
-Run simulation to get binding events ->
-Process .dcd files to .npy and plug into neural network.
+Run simulation to get binding events ->  
+Process .dcd files to .npy and plug into neural network.  
 
 The simulation script, topology file and other model parameters are in *hoomd* folder.
 
