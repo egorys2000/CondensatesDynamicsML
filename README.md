@@ -23,7 +23,7 @@ temp = model.predict([traj_ord, traj_ord_lag], batch_size=np.shape(X1_vali)[0])
 
 
 
-#References:
+# References:
 Mardt, A., Pasquali, L., Wu, H., & Noé, F. (2018). 
 VAMPnets for deep learning of molecular kinetics. 
 Nature communications, 9(1), 5.
