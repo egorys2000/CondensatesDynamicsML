@@ -31,8 +31,8 @@ Process .dcd files to .npy and plug into neural network.
 The simulation script, topology file and other model parameters are in *hoomd* folder.
 
 The whole dataset used for training can be found on Zenodo pages:  
-- [Ctd condensate + E10 Peptide trajectories] (https://zenodo.org/deposit/7474667)
-- [Ctd condensate + P10 Peptide trajectories] (https://zenodo.org/deposit/7474706)
+- [Ctd condensate + E10 Peptide trajectories](https://zenodo.org/deposit/7474667)
+- [Ctd condensate + P10 Peptide trajectories](https://zenodo.org/deposit/7474706)
 
 
 
